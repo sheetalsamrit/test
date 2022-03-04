@@ -60,7 +60,7 @@ public class Testthinkbridge {
 		
 		//ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
 	   // driver.switchTo().window(tabs.get(1)); //switches to new tab
-	   // driver.get("https://www.facebook.com");
+	   // driver.get("https://mail.google.com/mail/");
 	
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 	    System.out.println(driver.getTitle());
